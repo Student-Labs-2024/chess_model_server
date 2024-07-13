@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chess-model-server"
+version = "0.1.0"
+description = "Serviece for chess engine comunication"
+authors = ["Цвиркунов Михаил <tsvirkunov@profilum.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-chess = "^1.0.0"
+uvicorn = "^0.30.1"
+fastapi = "^0.111.0"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+tqdm = "^4.66.4"
+networkx = "^3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
